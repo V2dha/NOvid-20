@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<HEAD>
+    <STYLE type="text/css">
+        .alert 
+        {
+            display: none
+        }
+    </STYLE>
+
+    <SCRIPT language="JavaScript">
+        var x = document.getElementById("demo");
+        function getLocation()
+        {
+            if (navigator.geolocation)
+                navigator.geolocation.getCurrentPosition(showPosition)
+            else
+                x.innerHTML = "Geolocation is not supported by this browser. "
+        }
+
+        function showPosition(position)
+        {
+            x.innerHTML = "Latitude: " + position.coords.latitude + "<BR> Longitude: " + position.coords.longitude
+        }
+
+        function empty()
+        {   if (document.f1.name.value == "")
+            alert('Please write your name!')
+            else if (document.f1.username.value == "")
+                alert('Please write a username!')
+            else if (document.f1.email.value == "")
+                alert('Please write your e-mail address!')
+            else if (document.f1.phone.value == "")
+                alert('Please write your phone number!')
+            else if (document.f1.pass.value == "")
+                alert('Please create a password!')
+            else if (document.f1.cpass.value == "")
+                alert('Please re-enter your password!')
+            else if (document.f1.location.value == "")
+                alert('Please enter your location!')
+            else if (document.f1.pass.value != document.f1.cpass.value)
+                alert('Passwords do not match !')
+             else
+                alert("You have been registered!");
+        }
+    </SCRIPT>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <META name="description" content="Become a registered member of NOvid-19">
+
+    <TITLE> Register </TITLE>
+
+</HEAD>
+
+<BODY width="80%">
+
+    <header class="main_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="https://i.ibb.co/m49w93y/Logo2.jpg" alt="NOvid-20 Logo" border="0"
+                                 align="left" height="100" width="250">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html"> Home </a>
+                                </li>
+
+                                <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+                                    <ul class="navbar-nav align-items-center">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html#about"> About </a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button"
+                                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="index.html#services"> Services </a>
+                                                <a class="dropdown-item" href="index.html#access"> Access our Services </a>
+                                            </div>
+                                        </li>
+
+                                        <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+                                            <ul class="navbar-nav align-items-center">
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="blog.html"> Blogs </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="breadcrumb_part breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <div class="breadcrumb_iner_item">
+                            <h2> Register </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-12">
+            <h2 class="contact-title"> Get in Touch </h2> <br>
+        </div>
+
+        <DIV class="alert"> Your account has been created ! </DIV>
+
+        <div class="col-lg-8">
+            <FORM name="f1" id="reg">
+                <div class="row">
+                    <div class="col-12">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="name" id="name" type="text" placeholder='Enter your name' id="name">
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="username" id="username" type="text" placeholder='Enter username'>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="email" id="email" type="email" placeholder='Enter email address'>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="phone" id="phone" type="number" placeholder='Enter phone number with code'>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="pass" id="pass" type="password" placeholder='Enter password'>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="cpass" type="password" placeholder='Confirm password'>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="location" OnClick="getLocation()" id="location"
+                                   placeholder='Click to detect location or enter manually'>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group mt-3">
+                    <br /> <br />
+                    <button name="S1" type="submit" id="submit" OnClick="empty()" class="button button-contactForm btn_1">
+                        Register Now
+                    </button>
+                </div>
+            </FORM>
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="media contact-info">
+                <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                <div class="media-body">
+                    <h3> 011-22307145 </h3>
+                    <p> Available 24 x 7 </p>
+                </div>
+            </div>
+            <div class="media contact-info">
+                <span class="contact-info__icon"><i class="ti-email"></i></span>
+                <div class="media-body">
+                    <h3> novid_20@gmail.com </h3>
+                    <p> Send us your query anytime! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="footer section_padding">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
+                        <a href="#" class="footer_logo"> <img src="https://i.ibb.co/m49w93y/Logo2.jpg" alt="#" height="90" width="290"> </a>
+                        <p> An online doctor and a health assistant,whenever and wherever you need.</p>
+                        <div class="social_logo">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"> <i class="ti-twitter"></i> </a>
+                            <a href="#"><i class="ti-instagram"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#access">Access our Services</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="https://www.who.int/">World Health Organisation</a></li>
+                            <li><a href="https://www.worldometers.info/coronavirus/">COVID-19 Worldwide</a></li>
+                            <li><a href="https://www.coronatracker.com/country/india/">COVID-19 in India </a></li>
+                            <li><a href="https://covid.icmr.org.in/#21.9564768/82.7403001/4">ICMR</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-sm-6 col-md-6 single-footer-widget">
+                        <h4>Technologies Used</h4>
+                        <ul>
+                            <li><a>Machine Learning</a></li>
+                            <li><a>Python</a></li>
+                            <li><a>HTML</a></li>
+                            <li><a>CSS</a></li>
+                            <li><a>Javascript</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-md-6 single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>Join us and get regular notification, Please enter your E-mail Id</p>
+                        <div class="form-wrap" id="mc_embed_signup">
+                            <form target="_blank"
+                                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                  method="get" class="form-inline">
+                                <input class="form-control" name="EMAIL" placeholder="Your Email Address"
+                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                       required="" type="email">
+                                <button class="click-btn btn btn-default text-uppercase">
+                                    <i class="ti-angle-right"></i>
+                                </button>
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+                                           type="text">
+                                </div>
+
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright_part">
+            <div class="container">
+                <div class="row align-items-center">
+                    <p class="footer-text m-0 col-lg-8 col-md-12">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | Thank you <i class="ti-heart" aria-hidden="true"></i> for <a href="index.html" target="_blank">Visiting us</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                    <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"> <i class="ti-twitter"></i> </a>
+                        <a href="#"><i class="ti-instagram"></i></a>
+                        <a href="#"><i class="ti-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer part end-->
+
+    <SCRIPT src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></SCRIPT>
+    <SCRIPT src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></SCRIPT>
+    <SCRIPT src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></SCRIPT>
+    <SCRIPT src="newmain.js"></SCRIPT>
+
+</BODY>
+
+</html>
