@@ -13,6 +13,7 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 ## Screenshots
 1. Homepage
+
 ![1](https://user-images.githubusercontent.com/50369708/98961517-a7903780-252b-11eb-9ac1-f23b398755db.PNG)
 
 ![2](https://user-images.githubusercontent.com/50369708/98961523-a959fb00-252b-11eb-91a1-ddd273b97693.PNG)
@@ -24,11 +25,13 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 ![5](https://user-images.githubusercontent.com/50369708/98961535-ac54eb80-252b-11eb-886b-2eb0f5a9d52c.PNG)
 
 2. Chatbot
+
 ![6](https://user-images.githubusercontent.com/50369708/98961540-ad861880-252b-11eb-9552-4b2eee2ce0a6.PNG)
 
 ![7](https://user-images.githubusercontent.com/50369708/98961546-af4fdc00-252b-11eb-9d3f-8862629c03b8.PNG)
 
 3. Covid-19 Predictor
+
 ![8](https://user-images.githubusercontent.com/50369708/98961552-b0810900-252b-11eb-9594-e5c0656fda3c.PNG)
 
 ![9](https://user-images.githubusercontent.com/50369708/98961564-b2e36300-252b-11eb-88e5-87f867187cc1.PNG)
