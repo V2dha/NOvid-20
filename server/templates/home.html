@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<META name="description" content="Check your symptoms to see if you could be at a risk of contracting the novel coronavirus">
+<META http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<META name="viewport" content="width=device-width, initial-scale=1">
+<TITLE> COVID-19 Prediction Form </TITLE>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="{{ url_for ('static', filename='css/tooplate-style.css') }} ">
+<!--<LINK href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' href="COV.css">  -->
+<style>
+body {
+  background-image: url('https://www.wunc.org/sites/wunc/files/styles/x_large/public/201909/doctor-physician-white-coat-uniform-medical-assistant-stethoscope-1571983-pxhere.com_.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login{
+    font-size : 20px;
+    margin-left: 20;
+}
+</style>
+
+</HEAD>
+
+<BODY>
+ 
+ <DIV class="login">
+  <p>
+    <a class="navbar-brand" href="https://novid-20.netlify.app/index.html"><img src="https://i.ibb.co/m49w93y/Logo2.jpg" alt="NOvid-20 Logo" border="0" align="left" height="100" width="250"></a>
+  <h4>Answer the following questions to check whether you are</h4>
+  <h4 align='center'>at risk of contracting COVID-19</h4>
+ </p>
+  <br>
+  <br>
+  <br>
+  
+     <!-- Main Input For Receiving Query to our ML -->
+    <FORM action="{{ url_for('predict')}}"method="post">
+    <br> What is your Gender? <br>
+    <input type="radio" name = "gender" required="required" value="0"> Male  </br>
+    <input type="radio" name = "gender" required="required" value="1"> Female </br> 
+    <input type="radio" name = "gender" required="required" value="2"> Other  </br>
+    <br> What is your Age Group? <br>
+    <input type="radio" name = "age" required="required" value="0"> Below 10 years </br>
+    <input type="radio" name = "age" required="required" value="1"> Between 10 - 19 years </br> 
+    <input type="radio" name = "age" required="required" value="2"> Between 20 - 24 years  </br>
+    <input type="radio" name = "age" required="required" value="3"> Between 25 - 59 years </br>
+    <input type="radio" name = "age" required="required" value="4"> Above 60 years   </br>
+    <Br>Do you have fever?<BR>
+    <input type="radio" name = "fever" required="required" value="1" > Yes  </br>
+    <input type="radio" name = "fever" required="required" value="0"> No </br> 
+    <br> Do you feel Tired? <br>
+    <input type="radio" name = "tired" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "tired" required="required" value="0"> No </br> 
+    <br> Do you have dry cough? <br>
+    <input type="radio" name = "dry-cough" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "dry-cough" required="required" value="0"> No </br> 
+    <br> Do you have difficulty in breathing? <br>
+    <input type="radio" name = "difficulty-in-breathing" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "difficulty-in-breathing" required="required" value="0"> No </br> 
+    <br> Do you have Sore Throat? <br>
+    <input type="radio" name = "Sore-throat" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "Sore-throat" required="required" value="0"> No </br> 
+    <br> Do you have body pain? <br>
+    <input type="radio" name = "pain" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "pain" required="required" value="0"> No </br> 
+    <br> Do you have nasal congestion?<br>
+    <input type="radio" name = "nasal-congestion" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "nasal-congestion" required="required" value="0"> No </br> 
+    <br> Do you have runny nose? <br>
+    <input type="radio" name = "runny-nose" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "runny-nose" required="required" value="0"> No </br> 
+    <br> Do you have diarrhea? <br>
+    <input type="radio" name = "diarrhea" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "diarrhea" required="required" value="0"> No </br> 
+    <br> Did you have contact with anyone tested positive for coronavirus? <br>
+    <input type="radio" name = "contact" required="required" value="1"> Yes  </br>
+    <input type="radio" name = "contact" required="required" value="0"> No </br> 
+
+      
+    <br><br>
+    <BUTTON type="submit" class="btn btn-primary btn-block btn-large"> Predict </BUTTON>
+    </FORM>
+
+   <BR>
+   {{ prediction_text }}
+
+ </DIV>
+
+<BR> <BR>
+</BODY>
+</HTML>
