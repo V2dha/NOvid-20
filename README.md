@@ -1,3 +1,4 @@
+![GitHub issues](https://img.shields.io/github/issues/tanvimoharir/NOvid-20)
 # NOvid-20
 
 An amazing PWA which is a solution to foretell the likelihood of being in vicinity of COVID-19.
