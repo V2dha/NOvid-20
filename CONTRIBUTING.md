@@ -1,3 +1,21 @@
+# Contributing guidelines
+Please follow the below steps to get started on submitting contributions:
+
+- Navigate to the 'Issues' tab to check if any open issues exist and check for unassigned issues.
+- You can comment and start working on it or wait for the issue to be assigned to you.
+- If you want to add any enhancement or features ,please discuss with maintainer and proceed accordingly.
+- If you have an issue and want to get started,start with forking the project.
+- If you have already forked the project, update your copy before working.
+- Create a new branch and start making the changes.
+- Once you are done with your changes commit,add and push them and open a pull request with the changes.
+
+Refer to the following articles on basics of Git and Github :  
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)  
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)  
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)  
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)  
+- [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)  
+
 # Contributing to NOvid-20
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
