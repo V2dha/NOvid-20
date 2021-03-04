@@ -1,5 +1,5 @@
 
-imeline for WOC
+Timeline for WOC
 
 
 Week 1
