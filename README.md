@@ -33,9 +33,13 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 3. Covid-19 Predictor
 
-![8](https://user-images.githubusercontent.com/50369708/98961552-b0810900-252b-11eb-9594-e5c0656fda3c.PNG)
+![8](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(105).png)
 
-![9](https://user-images.githubusercontent.com/50369708/98961564-b2e36300-252b-11eb-88e5-87f867187cc1.PNG)
+![9](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(106).png)
+
+4. Covid-19 Predictor using X-Ray
+
+![10](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(104).png)
 
 # Tech Stack
 1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 98.2% using Random Forest classifier.
