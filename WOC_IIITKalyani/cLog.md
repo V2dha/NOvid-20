@@ -36,7 +36,7 @@
 
    * https://github.com/V2dha/NOvid-20/pull/19
 
-    ** Week 4 and 5 
+    ** Week 4 and Week 5 
 
 ## COVID detection using X_RAY:-
 
