@@ -21,7 +21,7 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 ![3](https://user-images.githubusercontent.com/50369708/98961527-aa8b2800-252b-11eb-97dc-059453d3980c.PNG)
 
-![4](https://user-images.githubusercontent.com/50369708/98961531-abbc5500-252b-11eb-9852-75481aa46074.PNG)
+![4](https://user-images.githubusercontent.com/50369708/98961535-ac54eb80-252b-11eb-886b-2eb0f5a9d52c.PNG)
 
 ![5](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(100).png)
 
