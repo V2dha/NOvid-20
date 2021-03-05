@@ -6,7 +6,7 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 # Features
 * A **machine learning based prediction model** that would help to provide the likelihood of the disease based on various factors.
 
-* An **interactive chatbot** which will resolve all your queries related to the disease and provide implementable solutions to them.
+* An **deep learning based X-Rays Covid Detection** which will detect COVID-19 based on your X-Ray report.
 
 * Current situation overview in which we would be giving the latest updates and overview of the on-going situation in the form of blogs and newsletters to help you keep track of it.
 
@@ -38,13 +38,12 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 ![9](https://user-images.githubusercontent.com/50369708/98961564-b2e36300-252b-11eb-88e5-87f867187cc1.PNG)
 
 # Tech Stack
-1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 81.2% using Random Forest classifier.
+1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 98.2% using Random Forest classifier.
 2. Used flask server for the model deployment on Heroku.
 3. The frontend is made using bootstrap template.
-4. The chatbot is powered by SnatchBot.
+
 
 # Future Scope
 1. Would work on enabling NLP on the chatbot to make it interactive for the users.
-2. Increasing the accuracy of the model.
 
 
