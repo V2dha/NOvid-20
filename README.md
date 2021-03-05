@@ -6,7 +6,7 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 # Features
 * A **machine learning based prediction model** that would help to provide the likelihood of the disease based on various factors.
 
-* An **interactive chatbot** which will resolve all your queries related to the disease and provide implementable solutions to them.
+* An **deep learning based X-Rays Covid Detection** which will detect COVID-19 based on your X-Ray report.
 
 * Current situation overview in which we would be giving the latest updates and overview of the on-going situation in the form of blogs and newsletters to help you keep track of it.
 
@@ -21,9 +21,10 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 ![3](https://user-images.githubusercontent.com/50369708/98961527-aa8b2800-252b-11eb-97dc-059453d3980c.PNG)
 
-![4](https://user-images.githubusercontent.com/50369708/98961531-abbc5500-252b-11eb-9852-75481aa46074.PNG)
+![4](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(100).png)
 
 ![5](https://user-images.githubusercontent.com/50369708/98961535-ac54eb80-252b-11eb-886b-2eb0f5a9d52c.PNG)
+
 
 2. Chatbot
 
@@ -33,18 +34,21 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 3. Covid-19 Predictor
 
-![8](https://user-images.githubusercontent.com/50369708/98961552-b0810900-252b-11eb-9594-e5c0656fda3c.PNG)
+![8](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(105).png)
 
-![9](https://user-images.githubusercontent.com/50369708/98961564-b2e36300-252b-11eb-88e5-87f867187cc1.PNG)
+![9](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(106).png)
+
+4. Covid-19 Predictor using X-Ray
+
+![10](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(104).png)
 
 # Tech Stack
-1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 81.2% using Random Forest classifier.
+1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 98.2% using Random Forest classifier.
 2. Used flask server for the model deployment on Heroku.
 3. The frontend is made using bootstrap template.
-4. The chatbot is powered by SnatchBot.
+
 
 # Future Scope
 1. Would work on enabling NLP on the chatbot to make it interactive for the users.
-2. Increasing the accuracy of the model.
 
 
