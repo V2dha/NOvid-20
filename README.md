@@ -23,7 +23,7 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 
 ![4](https://user-images.githubusercontent.com/50369708/98961531-abbc5500-252b-11eb-9852-75481aa46074.PNG)
 
-![5](https://user-images.githubusercontent.com/50369708/98961535-ac54eb80-252b-11eb-886b-2eb0f5a9d52c.PNG)
+![5](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(100).png)
 
 2. Chatbot
 
