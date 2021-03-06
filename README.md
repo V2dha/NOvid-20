@@ -22,13 +22,13 @@
 
 
 # Features
-* A **machine learning based prediction model** that would help to provide the likelihood of the disease based on various factors.
+* **COVID-19 Predictor** - The predictor model based on machine learning approach analyzes the likelihood of the disease based on various factors.
 
-* An **deep learning based X-Rays Covid Detection** which will detect COVID-19 based on your X-Ray report.
+* **COVID-19 Detector** - With the help of COVID-19 Detector, you can upload your Chest X-Ray image and get a prior prediction of whether you are COVID-19 positive, negative or it's a case of Pneumonia.
 
-* Current situation overview in which we would be giving the latest updates and overview of the on-going situation in the form of blogs and newsletters to help you keep track of it.
+* **Chatbot** - An AI assistant will resolve all your queries related to the disease and provide implementable solutions to them.
 
-* Some useful insights i.e in addition to the above, we would also be providing useful insights from our end, which would prove to be beneficial.
+* **Current situation Overview** - Latest updates and overview of the on-going situation to help you keep track of it.
 
 ## Screenshots
 1. Homepage
