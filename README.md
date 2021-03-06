@@ -30,16 +30,22 @@
 
 * **Current situation Overview** - Latest updates and overview of the on-going situation to help you keep track of it.
 
-## Demo
+# Demo
 <img src="demo/demo.gif">
 
 # Tech Stack
-1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 98.2% using Random Forest classifier.
-2. Used flask server for the model deployment on Heroku.
-3. The frontend is made using bootstrap template.
+1. For [COVID-19 Predictor](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-predictor), Ensemble Machine Learning classifier was used to classify the symptoms and factors entered by the user. The accuracy achieved by the model is 98.2% using Random Forest. 
+2. For [COVID-19 Detector](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-detector), Convolutional Neural Networks were used to detect the COVID-19 using Chest X-Ray images with an accuracy of 95%. 
+3. For both deployment of Predictor and Detector, Flask was used for backend deployment on heroku.
+4. Main website is a static website hosted using Github Pages with the frontend built using Bootstrap template.
+5. Chatbot is powered by SnatchBot.
 
+# Contributing:
 
-# Future Scope
-1. Would work on enabling NLP on the chatbot to make it interactive for the users.
+NOvid-20 is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE OF CONDUCT](https://github.com/V2dha/NOvid-20/blob/master/CODE_OF_CONDUCT.md) and [CONTRIBUTING GUIDELINES](https://github.com/V2dha/NOvid-20/blob/master/CONTRIBUTING.md). 
 
+## Contributors 
 
+<a href="https://github.com/V2dha/NOvid-20/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=V2dha/NOvid-20" />
+</a>
