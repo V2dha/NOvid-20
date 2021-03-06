@@ -10,9 +10,9 @@
   <p align="center">
   One solution to all Covid-19 Queries
   <br/>
-  An online doctor and a health assistant, whenever and wherever you need. 
+  An online doctor and a health assistant, whenever and wherever you need
   <br />
-  A solution to foretell the likelihood of being in vicinity of COVID-19 using ML and AI.
+  A solution to foretell the likelihood of being in vicinity of COVID-19 using ML and AI
   <br />
   <br />
   </p>
