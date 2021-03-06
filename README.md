@@ -44,7 +44,7 @@
 * Main website is a static website hosted using Github Pages with the frontend built using Bootstrap template.
 * Chatbot is powered by SnatchBot.
 
-# Contributing:
+# Contributing
 
 NOvid-20 is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE OF CONDUCT](https://github.com/V2dha/NOvid-20/blob/master/CODE_OF_CONDUCT.md) and [CONTRIBUTING GUIDELINES](https://github.com/V2dha/NOvid-20/blob/master/CONTRIBUTING.md). 
 
