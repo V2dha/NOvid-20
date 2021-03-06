@@ -1,7 +1,7 @@
-![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20?align=center) 
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue?align=center)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange?align=center)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20?align=center)
+![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20) 
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20)
 
 
 <p align="center">
@@ -11,7 +11,7 @@
   <br />
   An online doctor and a health assistant, whenever and wherever you need. 
   <br />
-  An amazing PWA which is a solution to foretell the likelihood of being in vicinity of COVID-19
+  A solution to foretell the likelihood of being in vicinity of COVID-19 using ML and AI.
   <br />
   <br />
   </p>
