@@ -1,7 +1,24 @@
-![GitHub issues](https://img.shields.io/github/issues/V2dha/NOvid-20) ![GitHub pull requests](https://img.shields.io/github/issues-pr/V2dha/NOvid-20)
-# NOvid-20
+![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20) 
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20)
 
-An amazing PWA which is a solution to foretell the likelihood of being in vicinity of COVID-19.
+
+<p align="center">
+  <img src="https://i.ibb.co/m49w93y/Logo2.jpg" width="500" alt="logo" />
+  <h1 align="center">NOvid-20</h1>
+  <p align="center">
+  <br />
+  An online doctor and a health assistant, whenever and wherever you need. 
+  <br />
+  An amazing PWA which is a solution to foretell the likelihood of being in vicinity of COVID-19
+  <br />
+  <br />
+  </p>
+</p>
+<hr>
+
+
 
 # Features
 * A **machine learning based prediction model** that would help to provide the likelihood of the disease based on various factors.
@@ -22,9 +39,6 @@ An amazing PWA which is a solution to foretell the likelihood of being in vicini
 ![3](https://user-images.githubusercontent.com/50369708/98961527-aa8b2800-252b-11eb-97dc-059453d3980c.PNG)
 
 ![4](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(100).png)
-
-![5](https://user-images.githubusercontent.com/50369708/98961535-ac54eb80-252b-11eb-886b-2eb0f5a9d52c.PNG)
-
 
 2. Chatbot
 
