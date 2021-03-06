@@ -48,7 +48,7 @@
 
 NOvid-20 is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE OF CONDUCT](https://github.com/V2dha/NOvid-20/blob/master/CODE_OF_CONDUCT.md) and [CONTRIBUTING GUIDELINES](https://github.com/V2dha/NOvid-20/blob/master/CONTRIBUTING.md). 
 
-## Contributors 
+# Contributors 
 
 <a href="https://github.com/V2dha/NOvid-20/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=V2dha/NOvid-20" />
