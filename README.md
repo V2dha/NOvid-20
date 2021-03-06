@@ -30,32 +30,8 @@
 
 * **Current situation Overview** - Latest updates and overview of the on-going situation to help you keep track of it.
 
-## Screenshots
-1. Homepage
-
-![1](https://user-images.githubusercontent.com/50369708/98961517-a7903780-252b-11eb-9ac1-f23b398755db.PNG)
-
-![2](https://user-images.githubusercontent.com/50369708/98961523-a959fb00-252b-11eb-91a1-ddd273b97693.PNG)
-
-![3](https://user-images.githubusercontent.com/50369708/98961527-aa8b2800-252b-11eb-97dc-059453d3980c.PNG)
-
-![4](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(100).png)
-
-2. Chatbot
-
-![6](https://user-images.githubusercontent.com/50369708/98961540-ad861880-252b-11eb-9552-4b2eee2ce0a6.PNG)
-
-![7](https://user-images.githubusercontent.com/50369708/98961546-af4fdc00-252b-11eb-9d3f-8862629c03b8.PNG)
-
-3. Covid-19 Predictor
-
-![8](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(105).png)
-
-![9](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(106).png)
-
-4. Covid-19 Predictor using X-Ray
-
-![10](https://github.com/Isha307/NOvid-20/blob/master/img/Images/Screenshot%20(104).png)
+## Demo
+<img src="demo/demo.gif">
 
 # Tech Stack
 1. Used Ensemble Machine Classifying methods to classify the symptoms entered by the user. The accuracy achieved by the model is 98.2% using Random Forest classifier.
