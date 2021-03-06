@@ -1,3 +1,5 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/v2dha/NOvid-20?color=orange)
+![GitHub forks](https://img.shields.io/github/forks/v2dha/NOvid-20?color=yellow)
 ![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20) 
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange)
@@ -34,11 +36,11 @@
 <img src="demo/demo.gif">
 
 # Tech Stack
-1. For [COVID-19 Predictor](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-predictor), Ensemble Machine Learning classifier was used to classify the symptoms and factors entered by the user. The accuracy achieved by the model is 98.2% using Random Forest. 
-2. For [COVID-19 Detector](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-detector), Convolutional Neural Networks were used to detect the COVID-19 using Chest X-Ray images with an accuracy of 95%. 
-3. For both deployment of Predictor and Detector, Flask was used for backend deployment on heroku.
-4. Main website is a static website hosted using Github Pages with the frontend built using Bootstrap template.
-5. Chatbot is powered by SnatchBot.
+* For [COVID-19 Predictor](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-predictor), Ensemble Machine Learning classifier was used to classify the symptoms and factors entered by the user. The accuracy achieved by the model is 98.2% using Random Forest. 
+* For [COVID-19 Detector](https://github.com/V2dha/NOvid-20/tree/master/server/covid19-detector), Convolutional Neural Networks were used to detect the COVID-19 using Chest X-Ray images with an accuracy of 95%. 
+* For both deployment of Predictor and Detector, Flask was used for backend deployment on heroku.
+* Main website is a static website hosted using Github Pages with the frontend built using Bootstrap template.
+* Chatbot is powered by SnatchBot.
 
 # Contributing:
 
