@@ -1,9 +1,11 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/v2dha/NOvid-20?color=orange)
 ![GitHub forks](https://img.shields.io/github/forks/v2dha/NOvid-20?color=yellow)
-![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20) 
+![GitHub contributors](https://img.shields.io/github/contributors/v2dha/NOvid-20)
+![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20?color=brown) 
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20)
+![APM](https://img.shields.io/apm/l/vim-mode)
 
 
 <p align="center">
