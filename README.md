@@ -1,11 +1,11 @@
-![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20) 
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20)
+![GitHub issues](https://img.shields.io/github/issues/v2dha/NOVid-20?align=center) 
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/v2dha/NOvid-20?color=blue?align=center)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/v2dha/NOvid-20?color=orange?align=center)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/v2dha/NOvid-20?align=center)
 
 
 <p align="center">
-  <img src="https://i.ibb.co/m49w93y/Logo2.jpg" width="500" alt="logo" />
+  <img src="https://i.ibb.co/m49w93y/Logo2.jpg" width="350" alt="logo" />
   <h1 align="center">NOvid-20</h1>
   <p align="center">
   <br />
