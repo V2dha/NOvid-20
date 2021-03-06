@@ -8,7 +8,8 @@
   <img src="https://i.ibb.co/m49w93y/Logo2.jpg" width="350" alt="logo" />
   <h1 align="center">NOvid-20</h1>
   <p align="center">
-  <br />
+  One solution to all Covid-19 Queries
+  <br/>
   An online doctor and a health assistant, whenever and wherever you need. 
   <br />
   A solution to foretell the likelihood of being in vicinity of COVID-19 using ML and AI.
